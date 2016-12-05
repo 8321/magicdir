@@ -2,7 +2,7 @@
 ###ADD and  DELETE a user on Linux system and GRANT SUDO privilege ###
 
 ##sudo adduser username -
-	@This root command will create a new user after providing proper root or sudo privilege.
+	<b>This root command will create a new user after providing proper root or sudo privilege.</b>
 ##su username -	
 	# This command will ask for user's credentials to login and access its home directory.
 ##id -	
@@ -67,7 +67,8 @@
 ##shutdown -h -r now +60 -
 	#This ia a common shutdown account.
 ##w -
-	#This command will give you which users are logged in with what ip address and some more details.New terminal counts as new user.
+	#This command will give you which users are logged in with what ip address and some more details.
+	New terminal counts as new user.
 ##top -
 	#This gives you detials of your process id with top resource hog.
 ##netstat -tupln -	
