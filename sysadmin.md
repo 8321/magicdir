@@ -2,7 +2,7 @@
 ###ADD and  DELETE a user on Linux system and GRANT SUDO privilege ###
 
 ##sudo adduser username -
-	#This root command will create a new user after providing proper root or sudo privilege.
+	@@This root command will create a new user after providing proper root or sudo privilege.
 ##su username -	
 	# This command will ask for user's credentials to login and access its home directory.
 ##id -	
@@ -14,7 +14,8 @@
 ##sudo adduser username sudo - 	
 	# This command will grant sudo (almost root)  privilege to the specified user. The user must logout to get access.
 ##sudo deluser --remove-home -f username -	
-	# This root command will force(-f) to delete the user with its home directory.You must logout that user to delete it.
+	# This root command will force(-f) to delete the user with its home directory.
+	You must logout that user to delete it.
 ##sudo visudo -	
 	# This root command will take you to write or change users sudo privilege. 
 	# Yes, the file /etc/sudoers is intentionally set read-only, even for root! 
