@@ -142,5 +142,39 @@ htop -
 
 	#THis command is a utility program to kill,search different kind of process.
 
+## Creating a github account along with git repository for project file push and pull.
+
+# Create a github account.
+# Make a repository on github account name it after the project name you are wokring on it.
+
+git init
+	# This command will initailized current working directory for git repository update.
+
+echo "#Add some random line" >> README.md
+
+	# This command will add  a line to README.md
+
+git add .
+
+	# This command will add all the files that has been modified on git configuration file.
+
+git commit -m "My first git commit"
+
+	# This command will commit any modified file for git update.
+
+git remote add origin https://github.com/8321/magicdir.git
+
+	# This command will set git url for repository update.
+
+git push -u origin master
+
+	# This command will ask user for account and password for repository update.
+
+git remote set-url origin https://github.com/8321/test.git
+git remote -v
+
+	# These command will set url and verify if the repository link is set mistakenly to a non existing repository.
+ 
+	
 	
 
