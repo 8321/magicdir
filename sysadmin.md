@@ -1,7 +1,7 @@
 
 ### ADD and  DELETE a user on Linux system and GRANT SUDO privilege ###
 
-sudo adduser username -
+## sudo adduser username -
 	 This root command will create a new user after providing proper root or sudo privilege.
 
 su username -
