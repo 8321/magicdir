@@ -2,7 +2,7 @@
 ###ADD and  DELETE a user on Linux system and GRANT SUDO privilege ###
 
 ##sudo adduser username -
-	@@This root command will create a new user after providing proper root or sudo privilege.
+	@This root command will create a new user after providing proper root or sudo privilege.
 ##su username -	
 	# This command will ask for user's credentials to login and access its home directory.
 ##id -	
@@ -12,7 +12,8 @@
 ##sudo groups -	
 	# This root command will show if it is under any root privilege or only on its own group.
 ##sudo adduser username sudo - 	
-	# This command will grant sudo (almost root)  privilege to the specified user. The user must logout to get access.
+	# This command will grant sudo (almost root)  privilege to the specified user. 
+	The user must logout to get access.
 ##sudo deluser --remove-home -f username -	
 	# This root command will force(-f) to delete the user with its home directory.
 	You must logout that user to delete it.
