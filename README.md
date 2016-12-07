@@ -1,4 +1,4 @@
-### MAGIC DIRECTORY ###
+### MAGIC DIRECTORY
 
 # Bash User Commands
 # Bash Mail Commands
