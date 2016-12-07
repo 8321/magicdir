@@ -1,5 +1,7 @@
-# MAGICDIR
-MAGIC DIRECTORY
-New Line Added
-#New Line Added
-# GIT update commands are added
+### MAGIC DIRECTORY ###
+
+# Bash User Commands
+# Bash Mail Commands
+# Bash File and Directory Commands
+# Bash Github Commands
+# Bash Standard IO Commands

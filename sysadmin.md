@@ -22,6 +22,9 @@
 	# Yes, the file /etc/sudoers is intentionally set read-only, even for root! 
 ##Defaults rootpw -	
 	# This line under /etc/sudoers will ask user to enter root password even the user is a sudo user.
+
+###Changing password for a user,logging out and log sessions ###
+
 ##passwd user -	
 	# This command will allow user to change its password.
 ##sudo pkill -KILL -u username -	
@@ -30,6 +33,9 @@
 	# This command will show last login session of users with date and time of login.
 ##who || w -	
 	# This command will show who are logged in using terminal.
+
+###Reading mails ###
+
 ##mail -
 	# This command will show your emails.
 ##cat /var/mail/username -	
@@ -38,6 +44,9 @@
 	# This command will show you latest emails.
 ##cp --copy-contents sourcefile destinationfile -
 	# This command will copy exact contents of the sourcefile to its destinationfile.
+
+###Working with directories,files,sessions and processes ###
+
 ##pwd - 
 	#This command will print working directory.
 ##tocuh myfile.txt - 
@@ -46,6 +55,16 @@
 	#This command will reads files.
 ##mkdir magicdir -		
 	#This command will create a directory.
+##mkdir -p parent/child/node/nano\ siblings 
+	#This command will create multiple directories.The slash one will create folder with two words.
+##cd parent/child
+	#This command will traverse you to child directory.
+##cd ../.. 
+	#This command will traverse back you to magicdir.
+##cat README.md sysadmin.md
+	#This command will concate two files. 
+##cat README.md sysadmin.md >> newme.md
+	# This command will concate two files and will create new single file newme.
 ##mv myfile.txt magicdir/ -
 	#This command moves a file to a target directory.
 ##rmdir magicdir -
@@ -77,8 +96,8 @@
 	#THis command is a utility program to kill,search different kind of process.
 
 
-###Creating a github account along with git repository for project file push and pull.
-###Create a github account.Make a repository on github account name it after the project name you are wokring on it.
+###Creating a github account along with git repository for project file push and pull ###
+###Create a github account.Make a repository on github account name it after the project name you are wokring on it ###
 
 ##git init
 	# This command will initailized current working directory for git repository update.
@@ -95,3 +114,18 @@
 ##git remote set-url origin https://github.com/8321/test.git
 ##git remote -v
 	# These command will set url and verify if the repository link is set mistakenly to a non existing repository.
+
+
+###Standard input and output ###
+
+##echo "This is an standard output for terminal"
+##echo "This line will be added to file stdout.md" 1> stdout.md
+##echo "This line will override the existing line. Don't use it" > stdout.md
+##echo "This line will added along with any existing lines in the stdout.md file" >> stdout.md
+##ls asdasd 2> stderr.md
+	#This command will write error on stderr.md file.
+##asdasd 2> err.md
+	#This command will also generate error on err.md file.
+##ls -alh sysadmin.md >> listoutput 
+	#This command will generate list output all in human readadble file.
+ 	

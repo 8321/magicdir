@@ -1,0 +1,2 @@
+bash: asdsadsa: command not found
+ls: cannot access adsadsa: No such file or directory

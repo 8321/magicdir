@@ -1,0 +1,2 @@
+This is an standard output but overrides the existing line
+This is an standard output using >> for adding line to existing.
